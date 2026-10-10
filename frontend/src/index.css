@@ -1,6 +1,6 @@
 
-:root {
-  color-scheme: dark;
+* {
+  box-sizing: border-box;
 }
 
 html {
@@ -14,15 +14,6 @@ body {
   min-height: 100vh;
 }
 
-button:focus-visible,
-select:focus-visible,
-input:focus-visible,
-a:focus-visible {
-  outline: 2px solid #a4f478;
-  outline-offset: 3px;
-}
-
-::selection {
-  background: #a4f478;
-  color: #101710;
+#root {
+  min-height: 100vh;
 }
